@@ -72,4 +72,5 @@ Runs on CPU or Apple MPS (`mps` is used automatically if available).
 
 ## What's next
 
-The model works but the attention design (using the same embeddings for query and key) is the bottleneck. The next step is understanding why transformers project embeddings into separate Q, K, V spaces — and what that actually buys you.
+This model reached 2.02 loss which is impressive for me but not working as expected on the quality of response stand point And I haven't reached any question which forces me to think in transformer approach I am currently in a thought that maybe that there is lot more to attention than “How each word is related to the words before it?”.
+Or else I might need to give more thought into attention model I created. So that would be my next plan.
