@@ -1,4 +1,7 @@
-.venv
+/.venv
 /venv
 .ipynb_checkpoints
 TinyStories-train.txt
+meta.pkl
+/*.bin
+.DS_Store
